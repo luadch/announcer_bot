@@ -5,9 +5,8 @@
 ]]--
 
 
-local ssl = require "ssl"
 local socket = require "socket"
-
+local ssl = require "ssl"
 local basexx = require "basexx"
 
 local sslctx, err = ssl.newcontext( cfg.sslparams )
@@ -91,7 +90,7 @@ net.loop = function( )
     return true
   else
     log.event( "Hub INF provided, try to send own INF..." )
-    local succ, err = client:send( "BINF " .. sid .. " VErelspam++ NI" .. adclib.escape( tostring( hub.nick ) ) .. " PD" .. id.pid .. " ID" .. id.cid .. " HN0 HR0 HO0 SUOSNR,ADC0,ADCS SS" .. cfg.botshare .. " SL" .. cfg.botslots .. " DE" .. adclib.escape( tostring( cfg.botdesc ) ) .. "\n" )
+    local succ, err = client:send( "BINF " .. sid .. " VErelspam++ NI" .. adclib.escape( tostring( hub.nick ) ) .. " PD" .. id.pid .. " ID" .. id.cid .. " HN0 HR0 HO0 SUOSNR,ADC0,ADCS SS" .. cfg.botshare .. " SL" .. cfg.botslots .. " DE" .. adclib.escape( tostring( cfg.botdesc ) ) .. " I40.0.0.0\n" )
     if err then
       log.event( "Fail: " .. tostring( err ) )
       return false

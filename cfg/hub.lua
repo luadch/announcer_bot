@@ -7,7 +7,7 @@ hub = { }
 hub.name = "Hubname"                                                -- hub name
 hub.addr = "localhost"                                              -- adress (without adcs://)
 hub.port = "5001"                                                   -- port
-hub.nick = "announcer™"                                             -- nick
-hub.pass = "2al50V8v1f"                                             -- pass
-hub.keyp = "G5PBR3BUFWO4G3PRJ4BABI3WLQBMMVLPUQ4ODHCCFWDI6MFTDBOA"   -- hub SHA256 keyprint
+hub.nick = "announcer"                                              -- nick
+hub.pass = "4YVPkDVdVeT9hRd7raEi"                                   -- pass
+hub.keyp = "YBKU7BXYGWFCUMXCBQAFUN2G7D2CCSV6IVOROWM33J5XLKPL3E2A"   -- hub SHA256 keyprint
 

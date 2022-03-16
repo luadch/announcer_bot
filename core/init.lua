@@ -18,7 +18,6 @@ package.cpath = package.cpath .. ";"
     .. "././lib/luasocket/?/?" .. filetype .. ";"
     .. "././lib/luasec/?/?" .. filetype .. ";"
 
-
 dofile "cfg/const.lua"
 dofile "cfg/cfg.lua"
 dofile "cfg/hub.lua"

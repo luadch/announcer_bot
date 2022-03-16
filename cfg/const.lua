@@ -9,4 +9,4 @@ LOG_PATH = "log/"
 CORE_PATH = "core/"
 CERT_PATH = "certs/"
 
-_VERSION = "0.02"
+_VERSION = "0.03"
