@@ -4,7 +4,7 @@
 
 - The bot will only work with ADC hubs supporting the OSNR extension
 - The bot assumes you have a registered account at the hub
-- The bot will only work with SSL secured ADC hubs
+- The bot will only work with TLS secured ADC hubs
 
 ## How to use
 
