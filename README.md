@@ -1,4 +1,4 @@
-# Luadch Announcer Bot (without GUI)
+# Luadch Announcer Bot (Windows only, without GUI)
 
 ## Remarks
 
